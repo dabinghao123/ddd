@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A11EC84D23502D9D00CB85E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC84C23502D9D00CB85E9 /* AppDelegate.m */; };
-		A11EC85023502D9D00CB85E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */; };
 		A11EC85323502D9D00CB85E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC85223502D9D00CB85E9 /* ViewController.m */; };
 		A11EC85623502D9D00CB85E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11EC85423502D9D00CB85E9 /* Main.storyboard */; };
 		A11EC85823502D9D00CB85E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11EC85723502D9D00CB85E9 /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		A11EC85E23502D9E00CB85E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC85D23502D9D00CB85E9 /* main.m */; };
 		A11EC86823502D9E00CB85E9 /* DrakModeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC86723502D9E00CB85E9 /* DrakModeDemoTests.m */; };
 		A11EC87323502D9E00CB85E9 /* DrakModeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC87223502D9E00CB85E9 /* DrakModeDemoUITests.m */; };
+		A11FC26523505F2E005DD113 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FC26323505F2E005DD113 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		A11EC84823502D9C00CB85E9 /* DrakModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrakModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11EC84B23502D9C00CB85E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A11EC84C23502D9D00CB85E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A11EC84E23502D9D00CB85E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		A11EC85123502D9D00CB85E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A11EC85223502D9D00CB85E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A11EC85523502D9D00CB85E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		A11EC86E23502D9E00CB85E9 /* DrakModeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakModeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11EC87223502D9E00CB85E9 /* DrakModeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrakModeDemoUITests.m; sourceTree = "<group>"; };
 		A11EC87423502D9E00CB85E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11FC26323505F2E005DD113 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A11FC26423505F2E005DD113 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 			children = (
 				A11EC84B23502D9C00CB85E9 /* AppDelegate.h */,
 				A11EC84C23502D9D00CB85E9 /* AppDelegate.m */,
-				A11EC84E23502D9D00CB85E9 /* SceneDelegate.h */,
-				A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */,
+				A11FC26423505F2E005DD113 /* SceneDelegate.h */,
+				A11FC26323505F2E005DD113 /* SceneDelegate.m */,
 				A11EC85123502D9D00CB85E9 /* ViewController.h */,
 				A11EC85223502D9D00CB85E9 /* ViewController.m */,
 				A11EC85423502D9D00CB85E9 /* Main.storyboard */,
@@ -270,7 +270,7 @@
 				A11EC85323502D9D00CB85E9 /* ViewController.m in Sources */,
 				A11EC84D23502D9D00CB85E9 /* AppDelegate.m in Sources */,
 				A11EC85E23502D9E00CB85E9 /* main.m in Sources */,
-				A11EC85023502D9D00CB85E9 /* SceneDelegate.m in Sources */,
+				A11FC26523505F2E005DD113 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,13 +442,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E8NHJ674FN;
 				INFOPLIST_FILE = DrakModeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,13 +460,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E8NHJ674FN;
 				INFOPLIST_FILE = DrakModeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

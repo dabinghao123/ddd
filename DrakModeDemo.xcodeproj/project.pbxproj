@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11EC84D23502D9D00CB85E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC84C23502D9D00CB85E9 /* AppDelegate.m */; };
+		A11EC85023502D9D00CB85E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */; };
+		A11EC85323502D9D00CB85E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC85223502D9D00CB85E9 /* ViewController.m */; };
+		A11EC85623502D9D00CB85E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11EC85423502D9D00CB85E9 /* Main.storyboard */; };
+		A11EC85823502D9D00CB85E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11EC85723502D9D00CB85E9 /* Assets.xcassets */; };
+		A11EC85B23502D9D00CB85E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11EC85923502D9D00CB85E9 /* LaunchScreen.storyboard */; };
+		A11EC85E23502D9E00CB85E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC85D23502D9D00CB85E9 /* main.m */; };
+		A11EC86823502D9E00CB85E9 /* DrakModeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC86723502D9E00CB85E9 /* DrakModeDemoTests.m */; };
+		A11EC87323502D9E00CB85E9 /* DrakModeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EC87223502D9E00CB85E9 /* DrakModeDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11EC86423502D9E00CB85E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11EC84023502D9C00CB85E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11EC84723502D9C00CB85E9;
+			remoteInfo = DrakModeDemo;
+		};
+		A11EC86F23502D9E00CB85E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11EC84023502D9C00CB85E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11EC84723502D9C00CB85E9;
+			remoteInfo = DrakModeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11EC84823502D9C00CB85E9 /* DrakModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrakModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11EC84B23502D9C00CB85E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A11EC84C23502D9D00CB85E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A11EC84E23502D9D00CB85E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A11EC85123502D9D00CB85E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A11EC85223502D9D00CB85E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A11EC85523502D9D00CB85E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A11EC85723502D9D00CB85E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11EC85A23502D9D00CB85E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A11EC85C23502D9D00CB85E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11EC85D23502D9D00CB85E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A11EC86323502D9E00CB85E9 /* DrakModeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakModeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11EC86723502D9E00CB85E9 /* DrakModeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrakModeDemoTests.m; sourceTree = "<group>"; };
+		A11EC86923502D9E00CB85E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11EC86E23502D9E00CB85E9 /* DrakModeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakModeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11EC87223502D9E00CB85E9 /* DrakModeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrakModeDemoUITests.m; sourceTree = "<group>"; };
+		A11EC87423502D9E00CB85E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11EC84523502D9C00CB85E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC86023502D9E00CB85E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC86B23502D9E00CB85E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11EC83F23502D9C00CB85E9 = {
+			isa = PBXGroup;
+			children = (
+				A11EC84A23502D9C00CB85E9 /* DrakModeDemo */,
+				A11EC86623502D9E00CB85E9 /* DrakModeDemoTests */,
+				A11EC87123502D9E00CB85E9 /* DrakModeDemoUITests */,
+				A11EC84923502D9C00CB85E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11EC84923502D9C00CB85E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11EC84823502D9C00CB85E9 /* DrakModeDemo.app */,
+				A11EC86323502D9E00CB85E9 /* DrakModeDemoTests.xctest */,
+				A11EC86E23502D9E00CB85E9 /* DrakModeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11EC84A23502D9C00CB85E9 /* DrakModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A11EC84B23502D9C00CB85E9 /* AppDelegate.h */,
+				A11EC84C23502D9D00CB85E9 /* AppDelegate.m */,
+				A11EC84E23502D9D00CB85E9 /* SceneDelegate.h */,
+				A11EC84F23502D9D00CB85E9 /* SceneDelegate.m */,
+				A11EC85123502D9D00CB85E9 /* ViewController.h */,
+				A11EC85223502D9D00CB85E9 /* ViewController.m */,
+				A11EC85423502D9D00CB85E9 /* Main.storyboard */,
+				A11EC85723502D9D00CB85E9 /* Assets.xcassets */,
+				A11EC85923502D9D00CB85E9 /* LaunchScreen.storyboard */,
+				A11EC85C23502D9D00CB85E9 /* Info.plist */,
+				A11EC85D23502D9D00CB85E9 /* main.m */,
+			);
+			path = DrakModeDemo;
+			sourceTree = "<group>";
+		};
+		A11EC86623502D9E00CB85E9 /* DrakModeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A11EC86723502D9E00CB85E9 /* DrakModeDemoTests.m */,
+				A11EC86923502D9E00CB85E9 /* Info.plist */,
+			);
+			path = DrakModeDemoTests;
+			sourceTree = "<group>";
+		};
+		A11EC87123502D9E00CB85E9 /* DrakModeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A11EC87223502D9E00CB85E9 /* DrakModeDemoUITests.m */,
+				A11EC87423502D9E00CB85E9 /* Info.plist */,
+			);
+			path = DrakModeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11EC84723502D9C00CB85E9 /* DrakModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11EC87723502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemo" */;
+			buildPhases = (
+				A11EC84423502D9C00CB85E9 /* Sources */,
+				A11EC84523502D9C00CB85E9 /* Frameworks */,
+				A11EC84623502D9C00CB85E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrakModeDemo;
+			productName = DrakModeDemo;
+			productReference = A11EC84823502D9C00CB85E9 /* DrakModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A11EC86223502D9E00CB85E9 /* DrakModeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11EC87A23502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemoTests" */;
+			buildPhases = (
+				A11EC85F23502D9E00CB85E9 /* Sources */,
+				A11EC86023502D9E00CB85E9 /* Frameworks */,
+				A11EC86123502D9E00CB85E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11EC86523502D9E00CB85E9 /* PBXTargetDependency */,
+			);
+			name = DrakModeDemoTests;
+			productName = DrakModeDemoTests;
+			productReference = A11EC86323502D9E00CB85E9 /* DrakModeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A11EC86D23502D9E00CB85E9 /* DrakModeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11EC87D23502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemoUITests" */;
+			buildPhases = (
+				A11EC86A23502D9E00CB85E9 /* Sources */,
+				A11EC86B23502D9E00CB85E9 /* Frameworks */,
+				A11EC86C23502D9E00CB85E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11EC87023502D9E00CB85E9 /* PBXTargetDependency */,
+			);
+			name = DrakModeDemoUITests;
+			productName = DrakModeDemoUITests;
+			productReference = A11EC86E23502D9E00CB85E9 /* DrakModeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11EC84023502D9C00CB85E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = yujianMac;
+				TargetAttributes = {
+					A11EC84723502D9C00CB85E9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A11EC86223502D9E00CB85E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A11EC84723502D9C00CB85E9;
+					};
+					A11EC86D23502D9E00CB85E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A11EC84723502D9C00CB85E9;
+					};
+				};
+			};
+			buildConfigurationList = A11EC84323502D9C00CB85E9 /* Build configuration list for PBXProject "DrakModeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11EC83F23502D9C00CB85E9;
+			productRefGroup = A11EC84923502D9C00CB85E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11EC84723502D9C00CB85E9 /* DrakModeDemo */,
+				A11EC86223502D9E00CB85E9 /* DrakModeDemoTests */,
+				A11EC86D23502D9E00CB85E9 /* DrakModeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11EC84623502D9C00CB85E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11EC85B23502D9D00CB85E9 /* LaunchScreen.storyboard in Resources */,
+				A11EC85823502D9D00CB85E9 /* Assets.xcassets in Resources */,
+				A11EC85623502D9D00CB85E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC86123502D9E00CB85E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC86C23502D9E00CB85E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11EC84423502D9C00CB85E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11EC85323502D9D00CB85E9 /* ViewController.m in Sources */,
+				A11EC84D23502D9D00CB85E9 /* AppDelegate.m in Sources */,
+				A11EC85E23502D9E00CB85E9 /* main.m in Sources */,
+				A11EC85023502D9D00CB85E9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC85F23502D9E00CB85E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11EC86823502D9E00CB85E9 /* DrakModeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11EC86A23502D9E00CB85E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11EC87323502D9E00CB85E9 /* DrakModeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11EC86523502D9E00CB85E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11EC84723502D9C00CB85E9 /* DrakModeDemo */;
+			targetProxy = A11EC86423502D9E00CB85E9 /* PBXContainerItemProxy */;
+		};
+		A11EC87023502D9E00CB85E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11EC84723502D9C00CB85E9 /* DrakModeDemo */;
+			targetProxy = A11EC86F23502D9E00CB85E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A11EC85423502D9D00CB85E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11EC85523502D9D00CB85E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A11EC85923502D9D00CB85E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11EC85A23502D9D00CB85E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11EC87523502D9E00CB85E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A11EC87623502D9E00CB85E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11EC87823502D9E00CB85E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11EC87923502D9E00CB85E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A11EC87B23502D9E00CB85E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrakModeDemo.app/DrakModeDemo";
+			};
+			name = Debug;
+		};
+		A11EC87C23502D9E00CB85E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrakModeDemo.app/DrakModeDemo";
+			};
+			name = Release;
+		};
+		A11EC87E23502D9E00CB85E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrakModeDemo;
+			};
+			name = Debug;
+		};
+		A11EC87F23502D9E00CB85E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8NHJ674FN;
+				INFOPLIST_FILE = DrakModeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uplay.DrakModeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrakModeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11EC84323502D9C00CB85E9 /* Build configuration list for PBXProject "DrakModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11EC87523502D9E00CB85E9 /* Debug */,
+				A11EC87623502D9E00CB85E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11EC87723502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11EC87823502D9E00CB85E9 /* Debug */,
+				A11EC87923502D9E00CB85E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11EC87A23502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11EC87B23502D9E00CB85E9 /* Debug */,
+				A11EC87C23502D9E00CB85E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11EC87D23502D9E00CB85E9 /* Build configuration list for PBXNativeTarget "DrakModeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11EC87E23502D9E00CB85E9 /* Debug */,
+				A11EC87F23502D9E00CB85E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11EC84023502D9C00CB85E9 /* Project object */;
+}
